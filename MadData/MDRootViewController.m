@@ -32,7 +32,7 @@
     [super viewDidLoad];
 	// At this time, assume everyone using the app is in Madison, WI
     [self.mapView setUserTrackingMode:MKUserTrackingModeFollow animated:YES];
-    NSDictionary* policeCalls = [_retriever getPoliceCalls];
+    NSArray* policeCalls = [_retriever getPoliceCalls];
     NSLog(@"%@", policeCalls);    
 }
 
