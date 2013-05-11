@@ -23,6 +23,6 @@
 	<key>cityDataURL</key>
 	<string>http://data.cityofmadison.com/resource/</string>
 	<key>githubURL</key>
-	<string></string>
+	<string>https://raw.github.com/promlow/madData/master/MadData/MDDefaults.plist</string>
 </dict>
 </plist>
