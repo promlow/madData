@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
+#import "MDRetriever.h"
+
 @interface MDRootViewController : UIViewController
 
 @property (strong, nonatomic) MKMapView *mapView;
-
+@property (strong, nonatomic) MDRetriever *retriever;
 @end

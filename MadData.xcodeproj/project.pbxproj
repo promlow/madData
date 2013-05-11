@@ -21,6 +21,8 @@
 		DAA1ED4F173E741D00CA0C73 /* MDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */; };
 		DAA1ED51173E771200CA0C73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA1ED50173E771200CA0C73 /* MapKit.framework */; };
 		DAA1ED53173E81B000CA0C73 /* MDDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA1ED52173E81B000CA0C73 /* MDDefaults.plist */; };
+		DAA1ED56173E89FA00CA0C73 /* MDRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ED55173E89FA00CA0C73 /* MDRetriever.m */; };
+		DAA1ED59173E8A3F00CA0C73 /* MDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ED58173E8A3F00CA0C73 /* MDUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,10 @@
 		DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRootViewController.m; sourceTree = "<group>"; };
 		DAA1ED50173E771200CA0C73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DAA1ED52173E81B000CA0C73 /* MDDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MDDefaults.plist; sourceTree = "<group>"; };
+		DAA1ED54173E89FA00CA0C73 /* MDRetriever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRetriever.h; sourceTree = "<group>"; };
+		DAA1ED55173E89FA00CA0C73 /* MDRetriever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRetriever.m; sourceTree = "<group>"; };
+		DAA1ED57173E8A3F00CA0C73 /* MDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDUtil.h; sourceTree = "<group>"; };
+		DAA1ED58173E8A3F00CA0C73 /* MDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,10 @@
 				DAA1ED34173E6D8E00CA0C73 /* Supporting Files */,
 				DAA1ED4D173E741D00CA0C73 /* MDRootViewController.h */,
 				DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */,
+				DAA1ED54173E89FA00CA0C73 /* MDRetriever.h */,
+				DAA1ED55173E89FA00CA0C73 /* MDRetriever.m */,
+				DAA1ED57173E8A3F00CA0C73 /* MDUtil.h */,
+				DAA1ED58173E8A3F00CA0C73 /* MDUtil.m */,
 			);
 			path = MadData;
 			sourceTree = "<group>";
@@ -189,6 +199,8 @@
 				DAA1ED3E173E6D8E00CA0C73 /* MDAppDelegate.m in Sources */,
 				DAA1ED47173E6D8F00CA0C73 /* MadData.xcdatamodeld in Sources */,
 				DAA1ED4F173E741D00CA0C73 /* MDRootViewController.m in Sources */,
+				DAA1ED56173E89FA00CA0C73 /* MDRetriever.m in Sources */,
+				DAA1ED59173E8A3F00CA0C73 /* MDUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

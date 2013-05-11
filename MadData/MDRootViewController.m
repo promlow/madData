@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.retriever = [[MDRetriever alloc] init];
         
         CGRect frame = [[UIApplication sharedApplication] keyWindow].frame;
         self.mapView = [[MKMapView alloc] initWithFrame:frame];
@@ -32,7 +32,8 @@
     [super viewDidLoad];
 	// At this time, assume everyone using the app is in Madison, WI
     [self.mapView setUserTrackingMode:MKUserTrackingModeFollow animated:YES];
-    
+    NSDictionary* policeCalls = [_retriever getPoliceCalls];
+    NSLog(@"%@", policeCalls);    
 }
 
 - (void)didReceiveMemoryWarning
