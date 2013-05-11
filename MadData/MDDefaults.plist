@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mapPollingPlaces</key>
+	<string>vf3w-yibt</string>
+	<key>mapPoliceFireStations</key>
+	<string>f4km-tx65</string>
+	<key>mapParks</key>
+	<string>9u47-9h3u</string>
+	<key>mapLibrary</key>
+	<string>p4au-pwd2</string>
+	<key>mapHydrants</key>
+	<string>ctnu-yxh7</string>
+	<key>mapBusStops</key>
+	<string>wwtc-pw9p</string>
+	<key>mapVacantLandSales</key>
+	<string>99g9-p6ki</string>
+	<key>mapCommLandSales</key>
+	<string>3kgn-2bpa</string>
+	<key>mapPoliceCalls</key>
+	<string>4ng4-nf3c</string>
+	<key>cityDataURL</key>
+	<string>http://data.cityofmadison.com/resource/</string>
+	<key>githubURL</key>
+	<string></string>
+</dict>
+</plist>

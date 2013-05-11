@@ -20,6 +20,7 @@
 		DAA1ED47173E6D8F00CA0C73 /* MadData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ED45173E6D8F00CA0C73 /* MadData.xcdatamodeld */; };
 		DAA1ED4F173E741D00CA0C73 /* MDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */; };
 		DAA1ED51173E771200CA0C73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA1ED50173E771200CA0C73 /* MapKit.framework */; };
+		DAA1ED53173E81B000CA0C73 /* MDDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA1ED52173E81B000CA0C73 /* MDDefaults.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		DAA1ED4D173E741D00CA0C73 /* MDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRootViewController.h; sourceTree = "<group>"; };
 		DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRootViewController.m; sourceTree = "<group>"; };
 		DAA1ED50173E771200CA0C73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DAA1ED52173E81B000CA0C73 /* MDDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MDDefaults.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				DAA1ED3F173E6D8F00CA0C73 /* Default.png */,
 				DAA1ED41173E6D8F00CA0C73 /* Default@2x.png */,
 				DAA1ED43173E6D8F00CA0C73 /* Default-568h@2x.png */,
+				DAA1ED52173E81B000CA0C73 /* MDDefaults.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				DAA1ED40173E6D8F00CA0C73 /* Default.png in Resources */,
 				DAA1ED42173E6D8F00CA0C73 /* Default@2x.png in Resources */,
 				DAA1ED44173E6D8F00CA0C73 /* Default-568h@2x.png in Resources */,
+				DAA1ED53173E81B000CA0C73 /* MDDefaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +305,7 @@
 				DAA1ED4C173E6D8F00CA0C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
