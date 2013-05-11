@@ -7,6 +7,7 @@
 //
 
 #import "MDAppDelegate.h"
+#import "MDRootViewController.h"
 
 @implementation MDAppDelegate
 
@@ -20,6 +21,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    [self.window setRootViewController:[[MDRootViewController alloc] init]];
     return YES;
 }
 

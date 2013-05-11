@@ -18,6 +18,8 @@
 		DAA1ED42173E6D8F00CA0C73 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA1ED41173E6D8F00CA0C73 /* Default@2x.png */; };
 		DAA1ED44173E6D8F00CA0C73 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA1ED43173E6D8F00CA0C73 /* Default-568h@2x.png */; };
 		DAA1ED47173E6D8F00CA0C73 /* MadData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ED45173E6D8F00CA0C73 /* MadData.xcdatamodeld */; };
+		DAA1ED4F173E741D00CA0C73 /* MDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */; };
+		DAA1ED51173E771200CA0C73 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA1ED50173E771200CA0C73 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		DAA1ED41173E6D8F00CA0C73 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DAA1ED43173E6D8F00CA0C73 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DAA1ED46173E6D8F00CA0C73 /* MadData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MadData.xcdatamodel; sourceTree = "<group>"; };
+		DAA1ED4D173E741D00CA0C73 /* MDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRootViewController.h; sourceTree = "<group>"; };
+		DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRootViewController.m; sourceTree = "<group>"; };
+		DAA1ED50173E771200CA0C73 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 				DAA1ED2C173E6D8E00CA0C73 /* UIKit.framework in Frameworks */,
 				DAA1ED2E173E6D8E00CA0C73 /* Foundation.framework in Frameworks */,
 				DAA1ED30173E6D8E00CA0C73 /* CoreGraphics.framework in Frameworks */,
+				DAA1ED51173E771200CA0C73 /* MapKit.framework in Frameworks */,
 				DAA1ED32173E6D8E00CA0C73 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +79,7 @@
 		DAA1ED2A173E6D8E00CA0C73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DAA1ED50173E771200CA0C73 /* MapKit.framework */,
 				DAA1ED2B173E6D8E00CA0C73 /* UIKit.framework */,
 				DAA1ED2D173E6D8E00CA0C73 /* Foundation.framework */,
 				DAA1ED2F173E6D8E00CA0C73 /* CoreGraphics.framework */,
@@ -88,6 +95,8 @@
 				DAA1ED3D173E6D8E00CA0C73 /* MDAppDelegate.m */,
 				DAA1ED45173E6D8F00CA0C73 /* MadData.xcdatamodeld */,
 				DAA1ED34173E6D8E00CA0C73 /* Supporting Files */,
+				DAA1ED4D173E741D00CA0C73 /* MDRootViewController.h */,
+				DAA1ED4E173E741D00CA0C73 /* MDRootViewController.m */,
 			);
 			path = MadData;
 			sourceTree = "<group>";
@@ -175,6 +184,7 @@
 				DAA1ED3A173E6D8E00CA0C73 /* main.m in Sources */,
 				DAA1ED3E173E6D8E00CA0C73 /* MDAppDelegate.m in Sources */,
 				DAA1ED47173E6D8F00CA0C73 /* MadData.xcdatamodeld in Sources */,
+				DAA1ED4F173E741D00CA0C73 /* MDRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
