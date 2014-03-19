@@ -37,9 +37,14 @@
 -(NSArray*) retrieveData:(NSString*) dataIdentifier
 {
     NSString* baseURL = [_properties objectForKey:@"cityDataURL"];
+    
     NSURL *url = [NSURL URLWithString:[baseURL stringByAppendingString:dataIdentifier]];
-    NSURLRequest *req = [NSURLRequest requestWithURL:url];
+    
+    NSURLRequest *req = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:90.0];
+    
+    //TODO: Check for and handle errors
     NSData *data_resp = [NSURLConnection sendSynchronousRequest:req returningResponse:nil error:nil];
+    
     //TODO: Check for and handle errors
     return [NSJSONSerialization JSONObjectWithData:data_resp options:NSJSONReadingAllowFragments error:nil];
 }
